@@ -32,6 +32,10 @@ ul {
     width: 25vw;
 }
 
+a {
+    text-decoration: none; 
+}
+
 @media screen and (max-width: 500px) {
    header {
      flex-direction: column;
@@ -39,9 +43,6 @@ ul {
    }
    ul {
     width: 46vw;
-   }
-   main img {
-    display: none;
    }
 }
 
@@ -84,7 +85,7 @@ h2 {
 }
 
 button {
-    width: 13vw;
+    width: 23vw;
     height: 5vh;
     color: #FFFFFF;
     background-color: #FCA60F;
@@ -120,7 +121,10 @@ nav {
         border-radius: 5px;
     }
     nav {
-        width: 7vw;
-        height: 3vh;
+        width: 20vw;
+        height: 20vh;
+    }
+    .copo {
+        display: none;
     }
 }
